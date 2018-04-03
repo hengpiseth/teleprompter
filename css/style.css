@@ -12,7 +12,7 @@
 body
 {
 	background-color: #141414;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Khmer OS Battambang';
 	color: #fff;
 }
 body, html
@@ -137,11 +137,16 @@ article .teleprompter.flipxy
 	pointer-events: none;
 	padding: 1000px 50px 300px 100px !important;
 }
-.sliders, .buttons, .colors
+.sliders, .buttons, .colors, .fontChooser
 {
 	display: block;
 	height: 64px;
 	float: right;
+}
+.fontChooser
+{
+	width: 100px;
+	padding: 8px;
 }
 .sliders label:first-child
 {
