@@ -5,6 +5,18 @@ var initPageSpeed = 35,
 	backgroundColor = '#141414',
 	timer = $('.clock').timer({ stopVal: 10000 });
 
+// Manage Font Change
+
+$(document).ready(function(){
+	$('select').change(function(){
+		var str="";
+		$("select option: selected").each(function(){
+			str += $(this).text() +" ";
+		});
+		$('body').css('font-family',str);
+	});
+});
+
 $(function() {
 
 	// Check if we've been here before and made changes
