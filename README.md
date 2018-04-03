@@ -25,3 +25,7 @@ A new feature, requested by [Richard Di Brittannia](https://soundcloud.com/rdbri
 Finally, we also made an effort to make sure your text will be easy to read.   So if you are pasting text from a word document, we'll do some cleaning up to make the breaks flow more easily.
 
 Follow me on Twitter for updates: **[@mrmidi](http://twitter.com/mrmidi "Follow @mrmidi on Twitter")**
+
+## Change Font ##
+
+Add dropdown list menu for choosing font
